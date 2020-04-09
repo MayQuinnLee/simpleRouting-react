@@ -1,0 +1,26 @@
+.App ul{
+    list-style: none;
+    margin: 0;
+    padding:0;
+    width: 100%;
+    text-align: center;
+}
+
+.App li{
+    display: inline-block;
+    margin: 50px;
+}
+
+.App a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.App a:hover,
+.App a:active,
+.App a.my-active{
+    color: orange;
+    font-weight: bold;
+    font-size: 20px;
+}
